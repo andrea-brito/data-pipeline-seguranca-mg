@@ -1,0 +1,25 @@
+# Dados brutos e processados (arquivos pesados)
+*.csv
+*.parquet
+*.json
+
+# Arquivo do Power BI (binário pesado)
+*.pbix
+
+# Ambientes virtuais Python
+venv/
+.venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
