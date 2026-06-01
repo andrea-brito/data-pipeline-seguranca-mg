@@ -77,19 +77,25 @@ Total Vítimas = SUM(violencia_mg_silver[qtde_vitimas])
 
 ---
 
-## 📈 Principais Insights Extraídos
+## �️ Preview do Dashboard
 
-### Sazonalidade dos Crimes (Jan–Jul 2023)
+![Dashboard de Segurança Pública MG](docs/dashboard_preview.png)
 
-A análise temporal revela um comportamento consistente de alta no primeiro trimestre do ano. O volume de vítimas parte de **12.937 em janeiro**, atinge seu pico em **março com 13.608 registros** e inicia uma trajetória de queda a partir de abril. Junho registra o menor valor do período analisado (**10.754**), com leve recuperação em julho (**11.808**). Esse padrão sugere que campanhas de prevenção e reforço de atendimento têm maior impacto quando concentradas entre janeiro e março, antes do pico se consolidar.
+---
+
+## �📈 Principais Insights Extraídos
+
+### Sazonalidade dos Crimes: Queda Abrupta a Partir de Agosto
+
+O gráfico de linhas de **Total Vítimas por Mês** revela um padrão de alta sustentada no primeiro semestre. O volume se mantém elevado entre janeiro e julho, oscilando entre **12 mil e 14 mil vítimas mensais**, com pico em **março (~13.608)**. A partir de agosto, há uma **queda abrupta para próximo de zero** — comportamento que reflete a cobertura do dataset, cujos registros de 2023 se encerram em julho. Essa característica é importante para a leitura correta do visual e deve ser considerada em análises comparativas entre períodos.
 
 ### Tipologia dos Crimes: Ameaça Domina o Cenário
 
-O gráfico de barras por `natureza_delito` expõe uma hierarquia clara de violência. **Ameaça lidera com 27.861 vítimas** — um volume 55% superior ao segundo colocado. Na sequência, **Vias de Fato / Agressão soma 17.992** e **Lesão Corporal registra 13.374**. Juntos, esses três tipos de crime concentram mais de **68% de todo o volume de ocorrências** do período, indicando que a violência física e psicológica direta são os vetores predominantes da violência doméstica em Minas Gerais.
+O gráfico de barras por `natureza_delito` expõe uma hierarquia clara de violência. **Ameaça lidera isolada com ~27.861 vítimas** — um volume 55% superior ao segundo colocado. Na sequência, **Vias de Fato / Agressão soma 17.992** e **Lesão Corporal registra 13.374**. Juntos, esses três tipos de crime concentram mais de **68% de todo o volume de ocorrências** do período, indicando que a violência física e psicológica direta são os vetores predominantes da violência doméstica em Minas Gerais.
 
 ### Descumprimento de Medidas Protetivas: Um Alerta Estrutural
 
-Com **5.479 registros de Descumprimento de Medida Protetiva de Urgência** em 2023, o dado revela uma falha sistêmica na proteção das vítimas que já acionaram o sistema judicial. Belo Horizonte concentra **1.194 desses casos** — mais que o dobro de Contagem (198) e Juiz de Fora (114), as cidades seguintes no ranking. Esse indicador vai além da estatística criminal: ele mede a efetividade do Estado em garantir a segurança de mulheres que já estão sob proteção legal, e aponta para a necessidade de monitoramento ativo e integração entre os sistemas de justiça e segurança pública.
+Com **5.479 registros de Descumprimento de Medida Protetiva de Urgência**, o dado revela uma falha sistêmica na proteção das vítimas que já acionaram o sistema judicial. Belo Horizonte concentra **1.194 desses casos** — mais que o dobro de Contagem (198) e Juiz de Fora (114), as cidades seguintes no ranking. Esse indicador vai além da estatística criminal: ele mede a efetividade do Estado em garantir a segurança de mulheres que já estão sob proteção legal, e aponta para a necessidade de monitoramento ativo e integração entre os sistemas de justiça e segurança pública.
 
 ---
 
