@@ -9,7 +9,7 @@ Dashboard analítico desenvolvido no **Power BI** com foco em violência domést
 ```
 📦 projeto
  ┣ � etl_pipeline/
- ┃ ┣ �📄 meu_primeiro_pipeline.py         # Conceito base de ETL (Extrair, Transformar, Carregar)
+ ┃ ┣ 📄 etl_pipeline.py                  # Conceito base de ETL (Extrair, Transformar, Carregar)
  ┃ ┣ 📄 consumindo_dados_governo.py      # Exploração e diagnóstico dos CSVs brutos do governo
  ┃ ┣ 📄 construindo_camada_silver.py     # Limpeza, padronização e união dos dados (Camada Silver)
  ┃ ┣ 📄 construindo_camada_gold.py       # Agregações analíticas e rankings (Camada Gold)
